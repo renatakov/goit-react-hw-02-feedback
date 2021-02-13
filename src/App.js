@@ -31,8 +31,8 @@ class App extends Component {
         <FeedbackOptions options={options} andleVote={this.andleVote}/>
         <Statistics
           good={this.state.good}
-          neutral={this.state.bad}
-          bad={this.state.neutral}
+          neutral={this.state.neutral}
+          bad={this.state.bad}
           total={this.constTotal()}
           countGoodPercentage={this.countGoodPercentage()}
         />
